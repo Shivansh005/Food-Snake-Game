@@ -1,6 +1,8 @@
 # Food-Snake-Game
 Food-Snake is a snake game where a snake moves within a boundary and grows longer as it eats food and score points. 
 
+(𝗜𝘁 𝗰𝗮𝗻 𝗯𝗲 𝗽𝗹𝗮𝘆𝗲𝗱 𝗼𝗻 𝗽𝗵𝗼𝗻𝗲 𝗮𝘀 𝘄𝗲𝗹𝗹 𝗮𝘀 𝗼𝗻 𝗱𝗲𝘀𝗸𝘁𝗼𝗽).
+
 If the snake runs into its own tail due to turning too sharply or hits the boundary of the board the game is over. 
 
 The player eats as many food balls as possible to increase his score, each food ball gives 50 points.
