@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: url(./Images/bg.jpg);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#board{
+    background: linear-gradient(rgb(20, 3, 59) , rgb(65, 165, 168));
+    width: 95vmin;
+    height: 92vmin;
+    border: solid 2px white;    
+    display: grid;
+    grid-template-rows: repeat(18 , 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+.snake{
+    background:linear-gradient(rgba(216, 231, 4, 0.924),rgb(253, 0, 63));
+    border-radius: 14px;
+}
+ .head{
+        background: linear-gradient(rgb(4, 207, 95),rgb(30, 255, 0));
+        border: 2px solid purple;
+        transform: scale(1.02);
+        border-radius:18px;
+ }
+ .food{
+     background:linear-gradient(rgb(255, 251, 0), rgb(245, 241, 5));
+     border-radius: 36px;
+     border: 1px solid blue;
+     
+ }
+ #scorebox{
+     position: absolute;
+     top: 8px;
+     left: 27cm;
+     font-size: 35px;
+     border: 1px solid black;
+     background:linear-gradient(pink , red);
+     padding: 8px;
+     font-family: 'Bebas Neue', cursive
+ }
+ #highscore{
+     position: absolute;
+     left:27cm;
+     top: 77px;
+     font-size: 35px;
+     border: 2px solid black;
+     background: linear-gradient(blue,orange);
+     padding: 8px;
+ }

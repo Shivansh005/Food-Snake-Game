@@ -1,0 +1,25 @@
+@media(max-width:620px)
+{
+     #board{
+    
+        width: 78vmin;
+        height: 120vmin;
+        margin-left: -67px;
+    }
+    .body{
+        min-height: 100vh;
+        background-size: 112vw 100vh;
+
+    }
+    #highscore{
+        position: absolute;
+        left: 4cm;
+        top: 45px;
+        font-size: 20px;
+    }
+    #scorebox{
+        left: 1cm;
+        top: 45px;
+        font-size: 18px;
+    }
+}
